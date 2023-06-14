@@ -169,3 +169,8 @@ form input[type="submit"]:hover,
 form input[type="button"]:hover {
   background: #394d61;
 }
+
+.paragraph p {
+  color:aqua;
+  background-color: cadetblue;
+}
