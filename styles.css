@@ -1,9 +1,18 @@
 /* Write your CSS below. */
+#change {
+  text-shadow: #83a4c5;
+  color:greenyellow
 
+}
+
+#change2{
+
+  color:chocolate
+}
 /* Do not change any CSS below this line. */
 
 :root {
-  --background-blue: #4f6ea0;
+  --background-blue: #103a7d;
   --line-blue: #104e6e;
   --old-brass: #cdc369;
   --soft-white: #e6e6c8;
