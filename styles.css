@@ -4,7 +4,7 @@
 
 :root {
   --background-blue: #4f6ea0;
-  --line-blue: #104e6e;
+  --line-blue: #51bff5;
   --old-brass: #cdc369;
   --soft-white: #e6e6c8;
   --dark-shadow: rgb(47, 79, 79);
@@ -30,7 +30,7 @@ ul {
 }
 
 ol {
-  font-weight: bold;
+  font-weight: initial;
 }
 
 ul li {
