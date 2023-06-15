@@ -19,7 +19,7 @@ body {
 h1 {
   color: var(--old-brass);
   font-size: 3em;
-  text-shadow: 1px 1px #eeeab4;
+  text-shadow: 1px 1px #fff78a;
 }
 
 ul {
@@ -69,6 +69,8 @@ img {
   margin-right: auto;
   box-shadow: var(--dark-box-shadowing);
   border-radius: 100%;
+  opacity: var(--soft-white);
+  
 }
 
 body {
