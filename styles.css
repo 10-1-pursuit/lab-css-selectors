@@ -4,9 +4,9 @@
 
 :root {
   --background-blue: #4f6ea0;
-  --line-blue: #104e6e;
+  --line-blue: #d14c9e;
   --old-brass: #cdc369;
-  --soft-white: #e6e6c8;
+  --soft-white: #95f6b2;
   --dark-shadow: rgb(47, 79, 79);
   --dark-box-shadowing: 4px 4px 8px var(--dark-shadow);
   --light-slate: #a8bace;
@@ -23,8 +23,8 @@ h1 {
 }
 
 ul {
-  list-style-type: none;
-  display: flex;
+  list-style-type: square;
+  display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
