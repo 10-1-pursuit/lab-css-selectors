@@ -77,7 +77,6 @@ body {
 
 h3 {
   text-decoration-line: underline;
-  text-decoration-style: wavy;
   text-decoration-thickness: 2px;
   color: var(--light-slate);
 }
