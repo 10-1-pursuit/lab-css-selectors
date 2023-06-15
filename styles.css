@@ -3,13 +3,13 @@
 /* Do not change any CSS below this line. */
 
 :root {
-  --background-blue: #4f6ea0;
-  --line-blue: #104e6e;
-  --old-brass: #cdc369;
+  --background-blue: #085f18;
+  --line-blue: #6e1010;
+  --old-brass: #b55a1a;
   --soft-white: #e6e6c8;
   --dark-shadow: rgb(47, 79, 79);
   --dark-box-shadowing: 4px 4px 8px var(--dark-shadow);
-  --light-slate: #a8bace;
+  --light-slate: #e4e5e6;
 }
 
 body {
@@ -77,7 +77,7 @@ body {
 
 h3 {
   text-decoration-line: underline;
-  text-decoration-style: wavy;
+  text-decoration-style: dotted;
   text-decoration-thickness: 2px;
   color: var(--light-slate);
 }
