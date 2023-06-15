@@ -39,7 +39,7 @@ ul li {
   border-radius: 10px;
   color: var(--line-blue);
   background-color: var(--old-brass);
-  width: 30%;
+  width: 40%;
   padding: 2em 1em;
   margin: 1em;
   box-shadow: var(--dark-box-shadowing);
@@ -58,7 +58,7 @@ ul li {
 }
 
 .links li {
-  width: 10%;
+  width: 24%;
 }
 
 img {
@@ -168,4 +168,8 @@ form input[type="button"] {
 form input[type="submit"]:hover,
 form input[type="button"]:hover {
   background: #394d61;
+}
+paragraph p {
+  color: teal;
+  background-color: navy;
 }
