@@ -132,14 +132,17 @@ form label {
   font-size: 16px;
   color: var(--soft-white);
 }
+
 form label {
   width: 100%;
   margin-bottom: 10px;
 }
-form label > span {
+
+form label>span {
   display: inline-block;
   width: 150px;
 }
+
 form input[type="text"],
 form input[type="email"] {
   background: transparent;
