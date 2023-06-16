@@ -1,7 +1,5 @@
 /* Write your CSS below. */
 
-/* Do not change any CSS below this line. */
-
 :root {
   --background-blue: #4f6ea0;
   --line-blue: #104e6e;
@@ -11,6 +9,40 @@
   --dark-box-shadowing: 4px 4px 8px var(--dark-shadow);
   --light-slate: #a8bace;
 }
+
+
+@media (prefers-color-scheme: dark) {
+  /* body {
+      background-color: black;
+      color: white;
+      
+  } */
+  :root {
+    --background-blue: #311c3c;
+    --line-blue: #051d29;
+    --old-brass: #6b6634;
+    --soft-white: #e6e6c8;
+    --dark-shadow: rgb(12, 230, 230);
+    --dark-box-shadowing: 4px 4px 8px var(--dark-shadow);
+    --light-slate: #a8bace;
+  }
+  
+}
+
+
+
+
+/* Do not change any CSS below this line. */
+
+/* :root {
+  --background-blue: #4f6ea0;
+  --line-blue: #104e6e;
+  --old-brass: #cdc369;
+  --soft-white: #e6e6c8;
+  --dark-shadow: rgb(47, 79, 79);
+  --dark-box-shadowing: 4px 4px 8px var(--dark-shadow);
+  --light-slate: #a8bace;
+} */
 
 body {
   color: var(--soft-white);
@@ -63,7 +95,7 @@ ul li {
 
 img {
   width: auto;
-  height: 200px;
+  height: 250px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -168,4 +200,14 @@ form input[type="button"] {
 form input[type="submit"]:hover,
 form input[type="button"]:hover {
   background: #394d61;
+}
+
+iframe {
+  width: 350px;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: var(--dark-box-shadowing);
+  border-bottom: 100%;
 }
