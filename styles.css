@@ -201,3 +201,13 @@ form input[type="submit"]:hover,
 form input[type="button"]:hover {
   background: #394d61;
 }
+
+iframe {
+  width: 350px;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: var(--dark-box-shadowing);
+  border-bottom: 100%;
+}
