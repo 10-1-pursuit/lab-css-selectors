@@ -1,5 +1,24 @@
 /* Write your CSS below. */
 
+p {
+  font-size: 25px;
+  display: grid;
+  place-items: center;
+  color: rgb(243, 171, 171);
+}
+
+#Head {
+  display: grid;
+  place-items: center;
+}
+
+#Intro {
+  font-size: 25px;
+  display: grid;
+  place-items: center;
+}
+
+
 /* Do not change any CSS below this line. */
 
 :root {
