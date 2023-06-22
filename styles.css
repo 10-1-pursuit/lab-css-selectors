@@ -77,7 +77,6 @@ body {
 
 h3 {
   text-decoration-line: underline;
-  text-decoration-style: wavy;
   text-decoration-thickness: 2px;
   color: var(--light-slate);
 }
@@ -101,10 +100,19 @@ a {
   color: var(--soft-white);
   text-decoration: none;
 }
-
-a:hover {
-  color: var(--light-slate);
+a {
+  color: black;
 }
+a:visited {
+  color: black;
+}
+a:hover {
+  color: white;
+}
+a:active {
+  color: white;
+}
+
 
 /* modified from https://www.sanwebe.com/2014/08/css-html-forms-designs */
 
